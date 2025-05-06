@@ -17,7 +17,7 @@ public final class AuraSkillsSkillsDistributor extends JavaPlugin implements Lis
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event)
     {
-        System.out.println("A player has joined the server");
+        event.setJoinMessage("unfortunately "+event.getPlayer()+" has joined the server");
     }
 
     @Override
