@@ -1,0 +1,4 @@
+name: AuraSkills-Skills-Distributor
+version: '1.0-SNAPSHOT'
+main: com.youssup.auraSkillsSkillsDistributor.AuraSkillsSkillsDistributor
+api-version: '1.21'
