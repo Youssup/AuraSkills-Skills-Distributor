@@ -7,11 +7,12 @@ public final class AuraSkillsSkillsDistributor extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        System.out.println("AuraSkillsSkillsDistributor plugin has started");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        System.out.println("AuraSkillsSkillsDistributor plugin has stopped");
     }
 }
